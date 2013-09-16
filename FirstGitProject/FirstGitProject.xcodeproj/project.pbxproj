@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8368827F17E6EAE20005B0B5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368826F17E6EAE20005B0B5 /* DetailViewController.m */; };
+		8368828017E6EAE20005B0B5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8368827117E6EAE20005B0B5 /* MasterViewController.m */; };
+		8368828117E6EAE20005B0B5 /* FirstGitProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8368827517E6EAE20005B0B5 /* FirstGitProject.xcdatamodeld */; };
+		8368828217E6EAE20005B0B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8368827917E6EAE20005B0B5 /* InfoPlist.strings */; };
+		8368828317E6EAE20005B0B5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8368827B17E6EAE20005B0B5 /* MainStoryboard_iPad.storyboard */; };
+		8368828417E6EAE20005B0B5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8368827D17E6EAE20005B0B5 /* MainStoryboard_iPhone.storyboard */; };
 		8380943D17E6D3F2006F5BED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380943C17E6D3F2006F5BED /* UIKit.framework */; };
 		8380943F17E6D3F2006F5BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380943E17E6D3F2006F5BED /* Foundation.framework */; };
 		8380944117E6D3F2006F5BED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380944017E6D3F2006F5BED /* CoreGraphics.framework */; };
 		8380944317E6D3F2006F5BED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380944217E6D3F2006F5BED /* CoreData.framework */; };
-		8380944917E6D3F2006F5BED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8380944717E6D3F2006F5BED /* InfoPlist.strings */; };
 		8380944B17E6D3F2006F5BED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8380944A17E6D3F2006F5BED /* main.m */; };
 		8380944F17E6D3F2006F5BED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8380944E17E6D3F2006F5BED /* AppDelegate.m */; };
 		8380945117E6D3F2006F5BED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8380945017E6D3F2006F5BED /* Default.png */; };
 		8380945317E6D3F2006F5BED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8380945217E6D3F2006F5BED /* Default@2x.png */; };
 		8380945517E6D3F2006F5BED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8380945417E6D3F2006F5BED /* Default-568h@2x.png */; };
-		8380945817E6D3F2006F5BED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8380945617E6D3F2006F5BED /* MainStoryboard_iPhone.storyboard */; };
-		8380945B17E6D3F2006F5BED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8380945917E6D3F2006F5BED /* MainStoryboard_iPad.storyboard */; };
-		8380945E17E6D3F2006F5BED /* FirstGitProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8380945C17E6D3F2006F5BED /* FirstGitProject.xcdatamodeld */; };
-		8380946117E6D3F2006F5BED /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8380946017E6D3F2006F5BED /* MasterViewController.m */; };
-		8380946417E6D3F2006F5BED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8380946317E6D3F2006F5BED /* DetailViewController.m */; };
 		8380946C17E6D3F2006F5BED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380946B17E6D3F2006F5BED /* SenTestingKit.framework */; };
 		8380946D17E6D3F2006F5BED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380943C17E6D3F2006F5BED /* UIKit.framework */; };
 		8380946E17E6D3F2006F5BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380943E17E6D3F2006F5BED /* Foundation.framework */; };
@@ -41,13 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8368826E17E6EAE20005B0B5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8368826F17E6EAE20005B0B5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8368827017E6EAE20005B0B5 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8368827117E6EAE20005B0B5 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8368827617E6EAE20005B0B5 /* FirstGitProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstGitProject.xcdatamodel; sourceTree = "<group>"; };
+		8368827A17E6EAE20005B0B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8368827C17E6EAE20005B0B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8368827E17E6EAE20005B0B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8380943917E6D3F2006F5BED /* FirstGitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstGitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8380943C17E6D3F2006F5BED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8380943E17E6D3F2006F5BED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8380944017E6D3F2006F5BED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8380944217E6D3F2006F5BED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8380944617E6D3F2006F5BED /* FirstGitProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstGitProject-Info.plist"; sourceTree = "<group>"; };
-		8380944817E6D3F2006F5BED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8380944A17E6D3F2006F5BED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8380944C17E6D3F2006F5BED /* FirstGitProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstGitProject-Prefix.pch"; sourceTree = "<group>"; };
 		8380944D17E6D3F2006F5BED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,13 +62,6 @@
 		8380945017E6D3F2006F5BED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8380945217E6D3F2006F5BED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8380945417E6D3F2006F5BED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8380945717E6D3F2006F5BED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		8380945A17E6D3F2006F5BED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8380945D17E6D3F2006F5BED /* FirstGitProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FirstGitProject.xcdatamodel; sourceTree = "<group>"; };
-		8380945F17E6D3F2006F5BED /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		8380946017E6D3F2006F5BED /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		8380946217E6D3F2006F5BED /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		8380946317E6D3F2006F5BED /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8380946A17E6D3F2006F5BED /* FirstGitProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstGitProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8380946B17E6D3F2006F5BED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8380947417E6D3F2006F5BED /* FirstGitProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstGitProjectTests-Info.plist"; sourceTree = "<group>"; };
@@ -96,6 +96,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8368826A17E6EAE20005B0B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8368826B17E6EAE20005B0B5 /* Model */,
+				8368826C17E6EAE20005B0B5 /* View */,
+				8368826D17E6EAE20005B0B5 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8368826B17E6EAE20005B0B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8368826C17E6EAE20005B0B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8368826D17E6EAE20005B0B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8368826E17E6EAE20005B0B5 /* DetailViewController.h */,
+				8368826F17E6EAE20005B0B5 /* DetailViewController.m */,
+				8368827017E6EAE20005B0B5 /* MasterViewController.h */,
+				8368827117E6EAE20005B0B5 /* MasterViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8368827217E6EAE20005B0B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8368827317E6EAE20005B0B5 /* Audio */,
+				8368827417E6EAE20005B0B5 /* DataModel */,
+				8368827717E6EAE20005B0B5 /* Image */,
+				8368827817E6EAE20005B0B5 /* Xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8368827317E6EAE20005B0B5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8368827417E6EAE20005B0B5 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8368827517E6EAE20005B0B5 /* FirstGitProject.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		8368827717E6EAE20005B0B5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		8368827817E6EAE20005B0B5 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				8368827917E6EAE20005B0B5 /* InfoPlist.strings */,
+				8368827B17E6EAE20005B0B5 /* MainStoryboard_iPad.storyboard */,
+				8368827D17E6EAE20005B0B5 /* MainStoryboard_iPhone.storyboard */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
 		8380943017E6D3F2006F5BED = {
 			isa = PBXGroup;
 			children = (
@@ -130,15 +208,10 @@
 		8380944417E6D3F2006F5BED /* FirstGitProject */ = {
 			isa = PBXGroup;
 			children = (
+				8368826A17E6EAE20005B0B5 /* Classes */,
+				8368827217E6EAE20005B0B5 /* Resources */,
 				8380944D17E6D3F2006F5BED /* AppDelegate.h */,
 				8380944E17E6D3F2006F5BED /* AppDelegate.m */,
-				8380945617E6D3F2006F5BED /* MainStoryboard_iPhone.storyboard */,
-				8380945917E6D3F2006F5BED /* MainStoryboard_iPad.storyboard */,
-				8380945F17E6D3F2006F5BED /* MasterViewController.h */,
-				8380946017E6D3F2006F5BED /* MasterViewController.m */,
-				8380946217E6D3F2006F5BED /* DetailViewController.h */,
-				8380946317E6D3F2006F5BED /* DetailViewController.m */,
-				8380945C17E6D3F2006F5BED /* FirstGitProject.xcdatamodeld */,
 				8380944517E6D3F2006F5BED /* Supporting Files */,
 			);
 			path = FirstGitProject;
@@ -148,7 +221,6 @@
 			isa = PBXGroup;
 			children = (
 				8380944617E6D3F2006F5BED /* FirstGitProject-Info.plist */,
-				8380944717E6D3F2006F5BED /* InfoPlist.strings */,
 				8380944A17E6D3F2006F5BED /* main.m */,
 				8380944C17E6D3F2006F5BED /* FirstGitProject-Prefix.pch */,
 				8380945017E6D3F2006F5BED /* Default.png */,
@@ -248,12 +320,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8380944917E6D3F2006F5BED /* InfoPlist.strings in Resources */,
 				8380945117E6D3F2006F5BED /* Default.png in Resources */,
 				8380945317E6D3F2006F5BED /* Default@2x.png in Resources */,
 				8380945517E6D3F2006F5BED /* Default-568h@2x.png in Resources */,
-				8380945817E6D3F2006F5BED /* MainStoryboard_iPhone.storyboard in Resources */,
-				8380945B17E6D3F2006F5BED /* MainStoryboard_iPad.storyboard in Resources */,
+				8368828217E6EAE20005B0B5 /* InfoPlist.strings in Resources */,
+				8368828317E6EAE20005B0B5 /* MainStoryboard_iPad.storyboard in Resources */,
+				8368828417E6EAE20005B0B5 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +362,9 @@
 			files = (
 				8380944B17E6D3F2006F5BED /* main.m in Sources */,
 				8380944F17E6D3F2006F5BED /* AppDelegate.m in Sources */,
-				8380945E17E6D3F2006F5BED /* FirstGitProject.xcdatamodeld in Sources */,
-				8380946117E6D3F2006F5BED /* MasterViewController.m in Sources */,
-				8380946417E6D3F2006F5BED /* DetailViewController.m in Sources */,
+				8368827F17E6EAE20005B0B5 /* DetailViewController.m in Sources */,
+				8368828017E6EAE20005B0B5 /* MasterViewController.m in Sources */,
+				8368828117E6EAE20005B0B5 /* FirstGitProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,28 +387,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8380944717E6D3F2006F5BED /* InfoPlist.strings */ = {
+		8368827917E6EAE20005B0B5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8380944817E6D3F2006F5BED /* en */,
+				8368827A17E6EAE20005B0B5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8380945617E6D3F2006F5BED /* MainStoryboard_iPhone.storyboard */ = {
+		8368827B17E6EAE20005B0B5 /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8380945717E6D3F2006F5BED /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8380945917E6D3F2006F5BED /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8380945A17E6D3F2006F5BED /* en */,
+				8368827C17E6EAE20005B0B5 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8368827D17E6EAE20005B0B5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8368827E17E6EAE20005B0B5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		8380947517E6D3F2006F5BED /* InfoPlist.strings */ = {
@@ -483,6 +555,7 @@
 				8380947F17E6D3F2006F5BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8380948017E6D3F2006F5BED /* Build configuration list for PBXNativeTarget "FirstGitProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -491,16 +564,17 @@
 				8380948217E6D3F2006F5BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8380945C17E6D3F2006F5BED /* FirstGitProject.xcdatamodeld */ = {
+		8368827517E6EAE20005B0B5 /* FirstGitProject.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8380945D17E6D3F2006F5BED /* FirstGitProject.xcdatamodel */,
+				8368827617E6EAE20005B0B5 /* FirstGitProject.xcdatamodel */,
 			);
-			currentVersion = 8380945D17E6D3F2006F5BED /* FirstGitProject.xcdatamodel */;
+			currentVersion = 8368827617E6EAE20005B0B5 /* FirstGitProject.xcdatamodel */;
 			path = FirstGitProject.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
